@@ -5,6 +5,7 @@
  * The main file should constantly check if U1STAbits.URXDA == 1 (FIFO full) 
  * to deteremine if multiple reads need to need done.  
  * 
+ *
  * Baud Rate = FCY / (mult * (U1BRG + 1))  mult=4 for BRGH=1, mult=16 for BRGH=0
 */
 void UARTInit()
